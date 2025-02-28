@@ -1,3 +1,5 @@
+# Info
+
 ## Project Goal
 
 The goal of this project was to create a tool for generating documentation for LEGO SPIKE Python code, but it should also work with general Python files. 
