@@ -1,22 +1,12 @@
----
-layout: default
----
+## Project Goal
 
-# {{ site.title }}
+The goal of this project was to create a tool for generating documentation for LEGO SPIKE Python code, but it should also work with general Python files. 
 
-{{ site.description }}
+## Best Practices
 
-[View on GitHub](https://github.com/your-repo)
+- The best visual output is achieved with **Google-style docstrings**.
+- If it seems that some parts of the code are missing from the documentation, ensure that a **docstring is present**.
 
-<div class="container">
-    <div class="content">
-        <div class="upload-box" id="uploadBox">Drag & Drop or Click to Upload</div>
-        <div class="text-display" id="textDisplay">Text from uploaded file will appear here...</div>
-    </div>
+## Reporting Issues
 
-    <aside class="sidebar">
-        <h3>Actions</h3>
-        <button id="downloadBtn"><i class="fa fa-download"></i> Download Text</button>
-        <button id="copyBtn"><i class="fa fa-copy"></i> Copy Text</button>
-    </aside>
-</div>
+If the issue persists, **open an issue** with an example of your code that the web tool failed to detect.
